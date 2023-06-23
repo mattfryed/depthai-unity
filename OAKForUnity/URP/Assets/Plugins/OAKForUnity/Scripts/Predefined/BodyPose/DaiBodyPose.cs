@@ -235,7 +235,7 @@ namespace OAKForUnity
 
                 if (index != -1) 
                 {
-                    landmarks[index] = new Vector3(x/1000,y/1000,z/1000);
+                    landmarks[index] = new Vector3(x/1000,y/1000,z/10000);
                     if (x!=0 && y!=0 && z!=0) 
                     {
                         skeleton[index].SetActive(true);

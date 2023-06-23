@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_Fries_material_new_Fry_1
+  m_Shader: {fileID: 4800000, guid: 4f831d9c5864b1e47a100e923a30daba, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothness:
+        m_Texture: {fileID: 2800000, guid: 6ea9656117b75409fac5ab891779a692, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: e1b41761b5fb7465ea05688f1b7f5d77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _baseColorTexture:
+        m_Texture: {fileID: 2800000, guid: 4b5eee42a0b5d482698c91b25457ec97, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 1}
+    - _emissiveTexture:
+        m_Texture: {fileID: 2800000, guid: 4b5eee42a0b5d482698c91b25457ec97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _metallicRoughnessTexture:
+        m_Texture: {fileID: 2800000, guid: 6ea9656117b75409fac5ab891779a692, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 1}
+    - _normalTexture:
+        m_Texture: {fileID: 2800000, guid: e1b41761b5fb7465ea05688f1b7f5d77, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 1}
+    - _occlusionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AffectorCount: 5
+    - _CenterMaskEnabled: 0
+    - _CenterMaskMultiply: 4
+    - _CenterMaskSubtract: 0.75
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _Distance: 1
+    - _DistancePower: 1
+    - _FinalMaskMultiply: 1.39
+    - _FinalPower: 0
+    - _LWRPAlphaClipThreshold: 0.5
+    - _Metallic: 0
+    - _OffsetPower: 1.5
+    - _OffsetYLock: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RampEnabled: 0
+    - _Smoothness: 0.117
+    - _VertexDistortionEnabled: 0
+    - _VertexDistortionPower: 0.1
+    - _VertexDistortionTiling: 1
+    - __dirty: 1
+    - _alphaCutoff: 0
+    - _linear: 1
+    - _metallicFactor: 1
+    - _roughnessFactor: 1
+    - _runtime: 0
+    m_Colors:
+    - _ColorTint: {r: 0.8584906, g: 0.5063138, b: 0.10933607, a: 1}
+    - _FinalColor: {r: 1, g: 0, b: 0, a: 1}
+    - _FinalColor2: {r: 0, g: 0, b: 0, a: 0}
+    - _baseColorFactor: {r: 1, g: 1, b: 1, a: 1}
+    - _emissiveFactor: {r: 0.6509434, g: 0.54559565, b: 0.46978462, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &8736993378054114059
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
